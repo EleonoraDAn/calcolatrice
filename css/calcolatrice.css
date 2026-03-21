@@ -11,14 +11,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("img/bg-image.png");
+    background-image: url("../img/bg-image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #corpo {
-    background-image: url("img/button.jpg");
+    background-image: url("../img/button.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,7 +38,7 @@ body {
     position: relative;
     top: 20px;
     left: 25px;
-    background-image: url("img/input-background.png");
+    background-image: url("../img/input-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -61,7 +61,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("img/button.jpg");
+    background-image: url("../img/button.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,7 +72,7 @@ body {
     font-weight: bold;
 }
 .simboli:hover {
-   background-image: url("img/button-hover.jpg");
+   background-image: url("../img/button-hover.jpg");
 }
 
 
