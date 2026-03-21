@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calcolatrice.css">
+    <title>Calcolatrice</title>
+</head>
+<body>
+    <div id="corpo">
+        <input type="text" id="operandi" readonly>
+        <div id="numeri">
+            <div class="simboli" onclick="clickButton(this)">9</div>
+            <div class="simboli" onclick="clickButton(this)">8</div>
+            <div class="simboli" onclick="cancButton()">C</div>
+            <div class="simboli" onclick="resetButton()">CANC</div>
+            <div class="simboli" onclick="clickButton(this)">7</div>
+            <div class="simboli" onclick="clickButton(this)">6</div>
+            <div class="simboli" onclick="clickButton(this)">5</div>
+            <div class="simboli" onclick="getOperation(this)">%</div>
+            <div class="simboli" onclick="clickButton(this)">4</div>
+            <div class="simboli" onclick="clickButton(this)">3</div>
+            <div class="simboli" onclick="clickButton(this)">2</div>
+            <div class="simboli" onclick="getOperation(this)">/</div>
+            <div class="simboli" onclick="clickButton(this)">1</div>
+            <div class="simboli" onclick="clickButton(this)">0</div>
+            <div class="simboli" onclick="clickButton(this)">.</div>
+            <div class="simboli" onclick="getOperation(this)">x</div>
+            <div class="simboli" onclick="getOperation(this)">+</div>
+            <div class="simboli" onclick="getOperation(this)">-</div>
+            <div class="simboli" onclick="getOperation(this)">√</div>
+            <div class="simboli" onclick="getOperation(this)">=</div>
+    </div>
+    <script src="javascript/calcolatrice.js"></script>
+</body>
+</html>

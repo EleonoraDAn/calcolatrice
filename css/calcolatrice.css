@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/bg-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#corpo {
+    background-image: url("img/button.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5%;
+    
+}
+
+#operandi {
+    font-size: 2em;
+    width: 450px;
+    height: 70px;
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    background-image: url("img/input-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: black;
+    text-align: center;
+}
+
+#numeri {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.simboli {
+    width: 50px;
+    height: 50px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/button.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    font-weight: bold;
+}
+.simboli:hover {
+   background-image: url("img/button-hover.jpg");
+}
+
+
+
